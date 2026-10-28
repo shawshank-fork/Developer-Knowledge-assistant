@@ -30,5 +30,5 @@ def get_document(document_id: int):
 @app.post("/ask")
 def ask_question(request: QuestionRequest):
     return {
-        "recieved_question": request.question
+        "received_question": request.question
     }
