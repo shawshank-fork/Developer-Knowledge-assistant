@@ -32,3 +32,5 @@ def ask_question(request: QuestionRequest):
     return {
         "received_question": request.question
     }
+
+#python -m uvicorn main:app --reload
